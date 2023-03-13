@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{419714BD-576B-4036-BDF5-F296A3D5C062}</ProjectGuid>
+    <ProjectGuid>{3A8D144D-2A7E-4490-9F92-7061432793F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>C_perusteet</RootNamespace>
-    <AssemblyName>C-perusteet</AssemblyName>
+    <RootNamespace>Osa2</RootNamespace>
+    <AssemblyName>Osa2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Osa1.cs" />
-    <Compile Include="Osa2.cs" />
-    <Compile Include="Osa3.cs" />
-    <Compile Include="Osa4.cs" />
+    <Compile Include="Program2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
